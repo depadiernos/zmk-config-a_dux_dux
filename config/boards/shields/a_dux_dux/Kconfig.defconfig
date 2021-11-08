@@ -4,7 +4,7 @@
 if SHIELD_A_DUX_DUX_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Architeuthis Dux Dux"
+	default "A Dux Dux"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -14,7 +14,7 @@ endif
 if SHIELD_A_DUX_DUX_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Architeuthis Dux Dux Right"
+	default "A Dux Dux Right"
 
 endif
 
