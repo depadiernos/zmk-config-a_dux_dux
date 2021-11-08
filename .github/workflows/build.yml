@@ -10,11 +10,8 @@ jobs:
     strategy:
       matrix:
         board:
-          - bluemicro840_v1
           - nice_nano
           - nice_nano_v2
-          - nrfmicro_13
-          - proton_c
         shield:
           - a_dux_dux_left
           - a_dux_dux_right
