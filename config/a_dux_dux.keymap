@@ -16,8 +16,8 @@
             combo_out_tog {
                 timeout-ms = <75>;
                 key-positions = <20 24>;
-                bindings = <&out OUT_TOGB>;
-
+                bindings = <&out OUT_TOG>;
+            };
             combo_tab {
                 timeout-ms = <75>;
                 key-positions = <10 14>;
