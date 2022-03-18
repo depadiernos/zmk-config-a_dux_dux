@@ -30,7 +30,7 @@
             };
             combo_3_r {
                 timeout-ms = <75>;
-                key-positions = <34 35p>;
+                key-positions = <34 35>;
                 bindings = <&sl 2>;
             };
     };
