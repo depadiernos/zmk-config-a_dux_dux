@@ -4,23 +4,23 @@
 if SHIELD_A_DUX_DUX_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "A Dux Dux"
+  default "A Dux Dux"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
+  default y
 
 endif
 
 if SHIELD_A_DUX_DUX_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "A Dux Dux Right"
+  default "A Dux Dux Right"
 
 endif
 
 if SHIELD_A_DUX_DUX_LEFT || SHIELD_A_DUX_DUX_RIGHT
 
 config ZMK_SPLIT
-	default y
+  default y
 
 endif
