@@ -11,9 +11,11 @@ jobs:
       matrix:
         board:
           - nice_nano_v2
+          - nice_nano
         shield:
           - a_dux_dux_left
           - a_dux_dux_right
+          - settings_reset
         cmake-args: [""]
     steps:
       - name: Checkout
