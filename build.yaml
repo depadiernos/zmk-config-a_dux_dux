@@ -13,5 +13,7 @@
 #
 ---
 include:
-  - board: a_dux_dux_left/nice_nano/zmk
-  - board: a_dux_dux_right/nice_nano/zmk
+  - board: nice_nano/zmk
+    shield: a_dux_dux_left
+  - board: nice_nano/zmk
+    shield: a_dux_dux_right
